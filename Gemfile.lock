@@ -212,6 +212,8 @@ GEM
     lumberjack (1.0.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    material_design_lite-rails (1.0.3)
+      railties (>= 3.1)
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     method_source (0.8.2)
@@ -401,6 +403,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   libnotify
+  material_design_lite-rails
   rack_session_access
   rails (= 4.2.1)
   rspec-its (~> 1)
