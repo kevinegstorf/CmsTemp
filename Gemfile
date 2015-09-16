@@ -14,6 +14,7 @@ gem 'material_design_lite-rails'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 
+
 group :development, :test do
   gem 'spring', '~> 1'
   gem 'rspec-rails', '~> 3'
@@ -21,13 +22,15 @@ group :development, :test do
   gem 'shoulda-matchers', '~> 2'
   gem 'database_cleaner', '~> 1'
   gem 'debase'
-  # gem 'ruby-debug-ide'
+  gem 'ruby-debug-ide'
   gem 'faker', '~> 1'
   gem 'factory_girl', '~> 4'
+  gem 'pg'
+
 
   gem 'cucumber-rails', '~> 1', require: false
-  # gem 'capybara-webkit', '~> 1'
-  # gem 'capybara-screenshot', '~> 1'
+  gem 'capybara-webkit', '~> 1'
+  gem 'capybara-screenshot', '~> 1'
   gem 'rack_session_access'
   gem 'rubocop'
   gem 'jasminerice', :git => 'https://github.com/bradphelan/jasminerice.git'
@@ -38,10 +41,10 @@ end
 
 group :development do
   gem 'guard', '~> 2'
-  gem 'libnotify'
   gem 'guard-rubocop', '~> 1'
   gem 'guard-preek'
   gem 'guard-rspec', '~> 4', require: false
   gem 'guard-cucumber', '~> 1', require: false
   gem 'guard-jasmine', '~> 2', require: false
+
 end
