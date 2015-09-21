@@ -5,11 +5,11 @@ application up and running.
 
 Things you may want to cover:
 
-'''def test blabla
-end
-'''
-
 * Ruby version
+
+	'''test blabla
+	'''
+
 
 * System dependencies
 
