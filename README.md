@@ -7,7 +7,8 @@ Things you may want to cover:
 
 
 
-```def test blabla
+```ruby
+ def testing
   @testing = Testing.new
 end
 ```
