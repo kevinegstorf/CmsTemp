@@ -19,6 +19,11 @@ var s = "JavaScript syntax highlighting";
 alert(s);
 ```
 
+```bash
+$cd workspace
+$ls README.MD
+```
+
 
 * Ruby version
 
