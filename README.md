@@ -5,10 +5,13 @@ application up and running.
 
 Things you may want to cover:
 
+
+
 ```def test blabla
   @testing = Testing.new
 end
 ```
+
 
 ```javascript
 var s = "JavaScript syntax highlighting";
